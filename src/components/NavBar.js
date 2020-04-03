@@ -1,11 +1,18 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
+const style = {
+    // height: '10vh'
+};
+
 function NavBar() {
     const location = useLocation();
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-dark teal darken-1">
+            <nav
+                className="navbar navbar-expand-lg navbar-dark teal darken-1"
+                style={style}
+            >
                 {/* <!-- Additional container --> */}
                 <div className="container">
                     {/* <!-- Navbar brand --> */}
@@ -33,12 +40,6 @@ function NavBar() {
                     >
                         {/* <!-- Links --> */}
                         <ul className="navbar-nav mr-auto">
-                            <li className="nav-item">
-                                <a className="nav-link" href="index.html">
-                                    Home
-                                    <span className="sr-only">(current)</span>
-                                </a>
-                            </li>
                             <li className="nav-item">
                                 <Link
                                     to="/portfolio"
