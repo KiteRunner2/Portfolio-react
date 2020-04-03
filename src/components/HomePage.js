@@ -9,6 +9,7 @@ function HomePage() {
     };
     return (
         <>
+            <div id="alertMessage"></div>
             <NavBar />
             <main className="mt-5">
                 <div className="container">
