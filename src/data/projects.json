@@ -1,12 +1,12 @@
 [{
+        "title": "<h3>Hatter - chatting application</h3><h3>JavaScript,Node.js,Express,MySQL</h3><hr>",
+        "description": "<p>Features:<ul><li>User profile</li><li>Post new message</li><li>Comment on existing message</li><li>Delete your messeges</li><li>Follow other users</li></ul>      </p>      <p> Technologies:<ul><li>Node.js, express to serve web pages and handle API calls between front-end/back-end</li>          <li>MySQL database with relations between tables to store user profile, posts, likes, etc.</li><li>Using bcrypt module to hash user password</li>          <li>Bootstrap for responsive design, jQuery for handling front-end logic</li></ul></p><p>Application layout works well for desktop and mobile browser. On mobile it colapses into single column. Layout is built using bootstrap. </p> <a href='https://github.com/KiteRunner2/hatter ' style='box - shadow: 3 px 3 px 8 px teal' target='blank'class = 'btn btn-teal darken-1'>GitHub Repo</a> <a href='http://hatter.herokuapp.com/' style='box-shadow: 3 px 3 px 8 px teal' target='blank' class='btn btn-teal darken-1'>Live app</a>",
+        "picture_url": "./img/hatt.png"
+    },
+    {
         "title": "<h3>Mobile Network KPI Dashboard - Python,Grafana,MySQL</h3><hr>",
         "description": "<p>Project with the client to automate private mobile network KPIs (key process indicators) reports. </p><p>Turn key project:<ul><li>processing raw xml files using Python</li><li>processing log files</li><li>design of MySQL schemas (more then 1000 counters)</li><li>SQL queries design</li><li><a href='https://grafana.com/'>Grafana</a> integration with MySQL database</li></ul></p><p style='font-style:italic'>GitHub and live demo not available due to NDA. </p>",
         "picture_url": "./img/KPI.png"
-    },
-    {
-        "title": "<h3>Hatter - chatting application</h3><h3>JavaScript,Node.js,Express,MySQL</h3><hr>",
-        "description": "<p>Features:<ul><li>User profile</li><li>Post new message</li><li>Comment on existing message</li><li>Delete your messeges</li><li>Follow other users</li></ul>      </p>      <p> Technologies:<ul><li>Node.js, express to serve web pages and handle API calls between front-end/back-end</li>          <li>MySQL database with relations between tables to store user profile, posts, likes, etc.</li><li>Using bcrypt module to hash user password</li>          <li>Bootstrap for responsive design, jQuery for handling front-end logic</li></ul></p><p>Application layout works well for desktop and mobile browser. On mobile it colapses into single column. Layout is built using bootstrap. </p> <a href='https:/ / github.com / KiteRunner2 / hatter ' style='box - shadow: 3 px 3 px 8 px teal' target='blank'class = 'btn btn-teal darken-1'>GitHub Repo</a> <a href='http://hatter.herokuapp.com/' style='box-shadow: 3 px 3 px 8 px teal' target='blank' class='btn btn-teal darken-1'>Live app</a>",
-        "picture_url": "./img/hatt.png"
     },
     {
         "title": "<h3>Password generator - JavaScript</h3><hr>",

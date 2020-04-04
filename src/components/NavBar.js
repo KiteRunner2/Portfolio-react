@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import ModalForm from './ModalForm';
 
 const style = {
     // height: '10vh'
@@ -75,7 +76,7 @@ function NavBar() {
                             <li className="nav-item">
                                 {/* <!-- <a className="nav-link" href="#" target="">Resume</a> --> */}
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a
                                     className="nav-link"
                                     data-toggle="modal"
@@ -84,7 +85,7 @@ function NavBar() {
                                 >
                                     Contact
                                 </a>
-                            </li>
+                            </li> */}
                         </ul>
                         {/* <!-- Links --> */}
 
@@ -103,6 +104,7 @@ function NavBar() {
                 </div>
                 {/* <!-- Additional container --> */}
             </nav>
+            <ModalForm />
         </>
     );
 }

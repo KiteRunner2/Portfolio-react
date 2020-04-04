@@ -9,10 +9,10 @@ function PortfolioPage() {
         <>
             <div id="alertMessage"></div>
             <NavBar />
-            <ModalFrom />
+            {/* <ModalFrom /> */}
             <main className="mt-5">
                 <div className="container">
-                    {projects.map(el => (
+                    {projects.map((el) => (
                         <ProjectCard
                             title={el.title}
                             description={el.description}

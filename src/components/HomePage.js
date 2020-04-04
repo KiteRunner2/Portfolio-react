@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import NavBar from './NavBar';
 import Footer from './Footer';
 function HomePage() {
     const style = {
         fontSize: 'larger',
-        boxShadow: { boxShadow: '3px 3px 8px teal' }
+        boxShadow: { boxShadow: '3px 3px 8px teal' },
     };
     return (
         <>
@@ -66,13 +67,15 @@ function HomePage() {
                                         <p class="card-text">
                                             Last update: April 1st, 2020
                                         </p>
-                                        <a
-                                            href="portfolio.html"
-                                            class="btn btn-teal darken-1"
-                                            style={style.boxShadow}
-                                        >
-                                            Learn more
-                                        </a>
+                                        <Link to="/portfolio">
+                                            <button
+                                                className="btn btn-teal
+                                            darken-1"
+                                                style={style.boxShadow}
+                                            >
+                                                Learn more
+                                            </button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
