@@ -2,7 +2,7 @@ import React from 'react';
 function ProjectCard(props) {
     return (
         <>
-            <div className="row">
+            <div className="row" style={{ paddingBottom: '3rem' }}>
                 <div className="col-md-5 mb-4">
                     <div dangerouslySetInnerHTML={{ __html: props.title }} />
                     {/* </hr> */}
