@@ -11,7 +11,7 @@ function App() {
             <>
                 <Route
                     exact
-                    path={['/', '/about', '/index.html', '/test']}
+                    path={['/', '/about', '/index.html']}
                     component={HomePage}
                 />
                 <Route exact path="/portfolio" component={PortfolioPage} />
