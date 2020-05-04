@@ -7,6 +7,7 @@ function HomePage() {
     const style = {
         fontSize: 'larger',
         boxShadow: { boxShadow: '3px 3px 8px teal' },
+        textAlign: 'left',
     };
     return (
         <>
@@ -15,18 +16,29 @@ function HomePage() {
             <main className="mt-5">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-12 mb-4 text-center">
-                            <h1 className="font-weight-bold">
+                        <div className="col-md-4 mb-4 text-center">
+                            <img
+                                src="./img/my_pic_small.png"
+                                class="card-img-top"
+                                alt=""
+                            />
+                        </div>
+                        <div className="col-md-7 mb-4 text-center">
+                            <h1
+                                className="font-weight-bold"
+                                style={{ textAlign: 'left' }}
+                            >
                                 Let's Work Together!
                             </h1>
                             <p style={style}>
-                                I am indepenent Full-Stack Web Developer based
-                                in Toronto, Canada. I specialize in front-end
-                                and back-end web development. Skilled in
-                                HTML/CSS, Javascript, Node.js, Angular, React,
-                                MongoDB, MySQL. First class communication,
-                                organization and administration skills. Good
-                                team player but can work indepently.
+                                Indepenent Full-Stack Web Developer based in
+                                Toronto, Canada. <br></br>I specialize in
+                                front-end and back-end web development. Skilled
+                                in HTML/CSS, Javascript, Node.js, React,
+                                MongoDB, MySQL.<br></br> First class
+                                communication, organization and administration
+                                skills. <br></br>Good team player but can work
+                                indepently.
                             </p>
                         </div>
                     </div>
@@ -65,7 +77,7 @@ function HomePage() {
                                             the senior/leadership level.
                                         </p>
                                         <p class="card-text">
-                                            Last update: April 1st, 2020
+                                            Last update: May 4, 2020
                                         </p>
                                         <Link to="/portfolio">
                                             <button

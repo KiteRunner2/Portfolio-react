@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import ModalForm from './ModalForm';
 
 const style = {
-    // height: '10vh'
+    textAlign: 'center',
 };
 
 function NavBar() {
@@ -11,7 +11,7 @@ function NavBar() {
     return (
         <>
             <nav
-                className="navbar navbar-expand-lg navbar-dark teal darken-1"
+                className="navbar navbar-expand-lg navbar-dark teal darken-1 sticky-top"
                 style={style}
             >
                 {/* <!-- Additional container --> */}
@@ -74,7 +74,18 @@ function NavBar() {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                {/* <!-- <a className="nav-link" href="#" target="">Resume</a> --> */}
+                                <a
+                                    className="nav-link"
+                                    href="./img/rudzki_resume.pdf"
+                                    target="blank"
+                                    alt="Click to download"
+                                    data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="Click to download"
+                                    data-delay="0"
+                                >
+                                    My Resume
+                                </a>
                             </li>
                             {/* <li className="nav-item">
                                 <a
@@ -89,7 +100,7 @@ function NavBar() {
                         </ul>
                         {/* <!-- Links --> */}
 
-                        <form className="form-inline">
+                        {/* <form className="form-inline">
                             <div className="md-form my-0">
                                 <input
                                     className="form-control mr-sm-2"
@@ -98,7 +109,7 @@ function NavBar() {
                                     aria-label="Search"
                                 />
                             </div>
-                        </form>
+                        </form> */}
                     </div>
                     {/* <!-- Collapsible content --> */}
                 </div>
