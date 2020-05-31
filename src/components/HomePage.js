@@ -77,7 +77,7 @@ function HomePage() {
                                             the senior/leadership level.
                                         </p>
                                         <p class="card-text">
-                                            Last update: May 4, 2020
+                                            Last update: May 31, 2020
                                         </p>
                                         <Link to="/portfolio">
                                             <button
